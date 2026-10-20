@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>智投星｜隱私權政策</title>
+<style>
+:root{--bg:#0A1020;--card:#121A36;--line:#24345A;--text:#EDF1FA;--dim:#AEB8D0;--accent:#63D3FF}
+@media (prefers-color-scheme: light){:root{--bg:#F5F7FB;--card:#FFFFFF;--line:#D6DEEC;--text:#14203A;--dim:#4A5878;--accent:#0B6FA4}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.8}
+main{max-width:760px;margin:0 auto;padding:32px 16px 48px}h1{font-size:24px;margin:0 0 8px}h2{font-size:18px;color:var(--accent);margin:28px 0 8px;padding-top:12px;border-top:1px solid var(--line)}h3{font-size:16px;margin:18px 0 6px}
+p,li{font-size:15px}ul{padding-left:22px}a{color:var(--accent);word-break:break-all}
+</style></head><body><main>
+<h1>智投星 隱私權政策</h1>
+<p>最後更新日期：2026年10月21日</p>
+<h2>概述</h2>
+<p>「智投星」（以下稱「本App」）是一款台股資訊整理工具，顯示股票技術指標、籌碼動向、估值、ETF 等公開市場資料的整理與歷史統計，並提供模擬投資等學習功能。本App的內容都是資料整理與歷史統計，不是買賣建議。</p>
+<p>本政策說明本App會處理哪些資料、用途是什麼，以及您可以如何刪除。</p>
+<h2>我們不會做的事</h2>
+<ul>
+<li>不要求提供姓名、電子郵件、電話號碼或其他可直接識別個人身分的資料</li>
+<li>不販售任何使用者資料，也不會為了廣告目的分享給第三方</li>
+<li>不含廣告，也未整合任何廣告 SDK</li>
+<li>不使用 Google Analytics、Facebook SDK 等會跨 App 追蹤使用者的工具</li>
+<li>不讀取您的通訊錄、相片、位置、簡訊等裝置上的個人資料</li>
+</ul>
+<h2>只存在您手機裡的資料</h2>
+<p>下列資料保存在您裝置的本機儲存空間，不會上傳到任何伺服器：</p>
+<ul>
+<li>自選股、快速監看清單、持股部位（股數、成本價等，僅供 App 內計算）</li>
+<li>退休導航的規劃數字</li>
+<li>「模擬投資挑戰」的練習帳戶（虛擬資金、委託、理由標籤）</li>
+<li>「存股成長追蹤」的試算設定</li>
+<li>顯示偏好（主題、字體大小等）</li>
+</ul>
+<p>您可以隨時解除安裝 App，或在 Android「設定 → 應用程式 → 智投星 → 儲存空間 → 清除儲存空間」刪除上述資料。</p>
+<h2>會傳送到伺服器的資料</h2>
+<h3>1. 模擬投資賽季（只有您主動報名時）</h3>
+<p>您選擇報名「模擬投資賽季」時，本App會自動建立一個匿名帳號（不需要電子郵件、電話或密碼），並把下列資料保存在雲端資料庫：</p>
+<ul>
+<li>匿名帳號 ID（系統自動產生的代碼）</li>
+<li>您自己取的賽季暱稱</li>
+<li>您在賽季中送出的模擬委託（股票代號、股數、選擇的理由標籤、送出時間）</li>
+</ul>
+<p>用途：計算賽季成績與排行榜。排行榜只公開暱稱、報酬率、最大回撤與成交筆數，不公開任何人的持股或委託內容。資料庫由 Supabase 代管（伺服器位於日本）。沒有報名賽季的使用者，不會建立帳號，也不會上傳上述資料。</p>
+<h3>2. AI 自由提問（只有您使用時）</h3>
+<p>您使用「AI 提問」功能時，您輸入的問題，以及 App 附上的相關公開市場資料，會經由本App的伺服器（Cloudflare）傳送給 Anthropic 的 Claude 模型產生回答。為了限制每天的提問次數，App 會在手機裡產生一組隨機的裝置代碼一併送出。我們不會另外保存您的提問內容或用於其他用途；Anthropic 依其服務條款處理這些資料。</p>
+<h3>3. 使用統計</h3>
+<p>本App使用 GoatCounter 記錄匿名的使用統計（例如各功能區塊被開啟的次數），用來了解哪些功能較常被使用、改善 App。這些統計不含您的姓名、帳號或可識別個人身分的資料。</p>
+<h3>4. 下載市場資料</h3>
+<p>本App會連線到公開的資料來源（GitHub）下載最新的股市整理資料與程式更新。這個連線只接收資料，不會傳送您的個人資料。</p>
+<h2>資料安全</h2>
+<p>所有傳送到伺服器的資料都透過加密連線（HTTPS）傳輸。賽季資料庫設有存取權限，每位使用者只能讀取與新增自己的資料，無法查看他人的委託。</p>
+<h2>刪除您的資料</h2>
+<ul>
+<li>在 App 內刪除（立即生效）：特色專區 → 模擬投資挑戰 → 🏆 賽季排行 → 我的賽季帳戶 → 最下方「退出賽季並刪除我的資料」。匿名帳號以及所有賽季的暱稱與委託紀錄，會立即從雲端永久刪除。</li>
+<li>寫信請我們刪除：寄信到 <a href="mailto:kobeyaiba@gmail.com">kobeyaiba@gmail.com</a>，主旨寫「智投星 刪除帳號申請」，並附上您的賽季暱稱。我們會在 7 個工作天內完成刪除並回覆。</li>
+<li>詳細說明：<a href="https://kobeyaiba-create.github.io/zs-k7q2m1215/delete.html">https://kobeyaiba-create.github.io/zs-k7q2m1215/delete.html</a></li>
+</ul>
+<p>提醒：清除手機資料或解除安裝 App，不會自動刪除雲端的賽季資料，請使用上面的方法。</p>
+<h2>兒童隱私</h2>
+<p>本App不是為 13 歲以下兒童設計，也不會在知情的情況下蒐集兒童的資料。</p>
+<h2>政策異動</h2>
+<p>本App功能有變動、需要調整本政策時，我們會更新本頁內容與「最後更新日期」。</p>
+<h2>聯絡方式</h2>
+<p>對本隱私權政策有任何疑問，歡迎來信：<a href="mailto:kobeyaiba@gmail.com">kobeyaiba@gmail.com</a></p>
+</main></body></html>
