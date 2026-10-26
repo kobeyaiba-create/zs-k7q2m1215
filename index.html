@@ -15,7 +15,7 @@
     
   <script>
 /* 自動更新：開啟時比對 version.txt，有新版就換成新版（不用手動下拉） */
-(function(){var B="7a2dec42da";window.__BUILD=B;
+(function(){var B="7d1387c819";window.__BUILD=B;
 try{if(location.protocol.indexOf("http")!==0)return;
 fetch("version.txt?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.text():""}).then(function(v){
 v=(v||"").trim();if(!v||v===B||v.length>20)return;
@@ -23,9 +23,9 @@ if(location.search.indexOf("v="+v)>=0)return;
 location.replace(location.pathname+"?v="+v);
 }).catch(function(){});}catch(e){}})();
 </script>
-<script>try{if(location.protocol.indexOf("http")===0&&window.fetch){window.__hfColdPre={u:"cold.json?v=22d9532547",p:fetch("cold.json?v=22d9532547").then(function(r){return r.ok?r.json():null}).catch(function(){return null})}}}catch(e){}</script>
+<script>try{if(location.protocol.indexOf("http")===0&&window.fetch){window.__hfColdPre={u:"cold.json?v=2eb95edc5f",p:fetch("cold.json?v=2eb95edc5f").then(function(r){return r.ok?r.json():null}).catch(function(){return null})}}}catch(e){}</script>
 </head>
   <body>
     <div id="root"><div id="boot" style="color:#9aa4b2;font:16px sans-serif;padding:40px 20px;text-align:center">智投星載入中…<br><small>若一直停在這裡，請用 Chrome 瀏覽器開啟此檔</small></div></div>
-  <script>window.addEventListener("error",function(e){var r=document.getElementById("root");if(r&&!r.querySelector("nav,button")){r.innerHTML='<div style="color:#f88;font:14px sans-serif;padding:30px">載入失敗：'+(e.message||"未知錯誤")+'</div>'}});</script><script src="app.js?v=7a2dec42da"></script></body>
+  <script>window.addEventListener("error",function(e){var r=document.getElementById("root");if(r&&!r.querySelector("nav,button")){r.innerHTML='<div style="color:#f88;font:14px sans-serif;padding:30px">載入失敗：'+(e.message||"未知錯誤")+'</div>'}});</script><script src="app.js?v=7d1387c819"></script></body>
 </html>
