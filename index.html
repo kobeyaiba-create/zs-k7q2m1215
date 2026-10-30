@@ -15,7 +15,7 @@
     
   <script>
 /* 自動更新：開啟時比對 version.txt，有新版就換成新版（不用手動下拉） */
-(function(){var B="c073100bf4";window.__BUILD=B;
+(function(){var B="1018bbdbd6";window.__BUILD=B;
 try{if(location.protocol.indexOf("http")!==0)return;
 fetch("version.txt?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.text():""}).then(function(v){
 v=(v||"").trim();if(!v||v===B||v.length>20)return;
@@ -23,9 +23,9 @@ if(location.search.indexOf("v="+v)>=0)return;
 location.replace(location.pathname+"?v="+v);
 }).catch(function(){});}catch(e){}})();
 </script>
-<script>try{if(location.protocol.indexOf("http")===0&&window.fetch){window.__hfColdPre={u:"cold.json?v=5fcb390c00",p:fetch("cold.json?v=5fcb390c00").then(function(r){return r.ok?r.json():null}).catch(function(){return null})}}}catch(e){}</script>
+<script>try{if(location.protocol.indexOf("http")===0&&window.fetch){window.__hfColdPre={u:"cold.json?v=e88ca5c0da",p:fetch("cold.json?v=e88ca5c0da").then(function(r){return r.ok?r.json():null}).catch(function(){return null})}}}catch(e){}</script>
 </head>
   <body>
     <div id="root"><div id="boot" style="color:#9aa4b2;font:16px sans-serif;padding:40px 20px;text-align:center">智投星載入中…<br><small>若一直停在這裡，請用 Chrome 瀏覽器開啟此檔</small></div></div><script>(function(){var ua=navigator.userAgent||"";function chk(){var b=document.getElementById("boot");if(!b||b.getAttribute("data-r"))return;b.setAttribute("data-r","1");var d=document.createElement("div");d.style.marginTop="18px";var x=document.createElement("button");x.textContent="🔄 重新載入";x.style.cssText="background:#0e7490;color:#fff;border:0;border-radius:10px;padding:10px 22px;font:bold 16px sans-serif";x.onclick=function(){location.replace(location.pathname+"?t="+Date.now())};d.appendChild(x);var t=document.createElement("div");t.style.cssText="margin-top:12px;font-size:13px;color:#fbbf24";t.textContent=ua.indexOf("Line/")>=0?"你正在用 LINE 內建瀏覽器，建議點右上角「⋯」改用 Chrome 開啟":"載入比平常久，可以按上面按鈕重新載入";d.appendChild(t);b.appendChild(d)}setTimeout(chk,12000)})();</script>
-  <script>window.addEventListener("error",function(e){var r=document.getElementById("root");if(r&&!r.querySelector("nav,button")){r.innerHTML='<div style="color:#f88;font:14px sans-serif;padding:30px">載入失敗：'+(e.message||"未知錯誤")+'</div>'}});</script><script src="app.js?v=c073100bf4"></script></body>
+  <script>window.addEventListener("error",function(e){var r=document.getElementById("root");if(r&&!r.querySelector("nav,button")){r.innerHTML='<div style="color:#f88;font:14px sans-serif;padding:30px">載入失敗：'+(e.message||"未知錯誤")+'</div>'}});</script><script src="app.js?v=1018bbdbd6"></script></body>
 </html>
